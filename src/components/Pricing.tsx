@@ -57,6 +57,7 @@ function Plan({
   href,
   features,
   featured = false,
+  specialist,
 }: {
   name: string
   price: string
@@ -64,6 +65,7 @@ function Plan({
   href: string
   features: Array<string>
   featured?: boolean
+  specialist?: string
 }) {
   return (
     <section
@@ -105,7 +107,7 @@ function Plan({
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Get started
+        Book {specialist}
       </Button>
     </section>
   )
@@ -121,39 +123,28 @@ export function Pricing() {
       <Container>
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
-            </span>{' '}
-            for everyone.
+            <span className="relative">Quick and easy booking,</span>
+            <p>
+              <span className="relative whitespace-nowrap">
+                <SwirlyDoodle className="absolute left-0 top-2/3 h-[1em] w-full fill-blue-400" />
+                for everyone.
+              </span>{' '}
+            </p>
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Pick one of our convient locations and book an appointment today.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            // featured
+            name="California Office"
+            price="$200"
+            description="w/ Dr. Tubio"
             href="/register"
+            specialist="Dr. Tubio"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
-            ]}
-          />
-          <Plan
-            featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
-            href="/register"
-            features={[
-              'Send 25 quotes and invoices',
+              '45 minute session',
               'Connect up to 5 bank accounts',
               'Track up to 50 expenses per month',
               'Automated payroll support',
@@ -163,6 +154,20 @@ export function Pricing() {
             ]}
           />
           <Plan
+            name="Houston Office"
+            price="$200"
+            description="w/ Dr. Jimenez"
+            specialist="Dr. Jimenez"
+            href="/register"
+            features={[
+              '45 minute session',
+              'Connect up to 2 bank accounts',
+              'Track up to 15 expenses per month',
+              'Manual payroll support',
+              'Export up to 3 reports',
+            ]}
+          />
+          {/* <Plan
             name="Enterprise"
             price="$39"
             description="For even the biggest enterprise companies."
@@ -174,7 +179,7 @@ export function Pricing() {
               'Automated payroll support',
               'Export up to 25 reports, including TPS',
             ]}
-          />
+          /> */}
         </div>
       </Container>
     </section>

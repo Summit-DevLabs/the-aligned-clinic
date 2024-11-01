@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Popover,
   PopoverButton,
@@ -12,6 +13,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
+import logo1 from '@images/logo1.jpg'
 import { NavLink } from '@/components/NavLink'
 
 function MobileNavLink({
@@ -89,7 +91,9 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+            <div className="h-5 w-auto" >
+              <Logo />
+              </div>
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
@@ -98,7 +102,8 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
+          <Button href="https://square.site/book/L0M3YBYKDTEYA/the-aligned-clinic-california-costa-mesa-ca">Book an appointment</Button>
+            {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div>
             <Button href="/register" color="blue">
@@ -108,7 +113,7 @@ export function Header() {
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
-            </div>
+            </div> */}
           </div>
         </nav>
       </Container>
