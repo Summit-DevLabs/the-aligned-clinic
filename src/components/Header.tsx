@@ -101,8 +101,9 @@ export function Header() {
               <NavLink href="#pricing">Pricing</NavLink>
             </div>
           </div>
-          {/* <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
+          <div className="flex items-center gap-x-5 md:gap-x-8">
+          <Button href="https://square.site/book/L0M3YBYKDTEYA/the-aligned-clinic-california-costa-mesa-ca">Book an appointment</Button>
+            {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div>
             <Button href="/register" color="blue">
@@ -112,8 +113,8 @@ export function Header() {
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
-            </div>
-          </div> */}
+            </div> */}
+          </div>
         </nav>
       </Container>
     </header>

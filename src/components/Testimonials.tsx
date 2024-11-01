@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Omg Dr.Tubio is amazing. Definitely has changed my life. After years of suffering and pain glad I decided to book over 5 months ago. Each visit just gets better and better. His staff and especially the young ladies in the front are extremely friendly and awesome. Definitely recommended. He’s the Best Hands Down. 🙏🏼',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'Nathan Herrera',
+        role: 'November 8, 2022',
+        image: avatarImage2,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'so professional! 👏👏👏👏👏👏👏',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Lena Dela Cruz',
+        role: 'July 25, 2021',
         image: avatarImage4,
       },
     },
@@ -31,39 +31,39 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'I’m grateful for the opportunity to see Dr. Tubio - he took his time, explained and adjusted me according to my needs. I felt like a champ after being adjusted. See you next month!',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Alicia Olguin',
+        role: 'April 5, 2021',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'After one adjustment, I noticed a huge improvement in posture, little to no pain in my daily activities now, and improvement in my quality of life overall. Dr T is worth every penny. Will continue to see him on a regular basis now.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Nigel Smith',
+        role: 'October 16, 2020',
+        image: avatarImage1,
       },
     },
   ],
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'I came all the way from California to visit Dr. Tubio! I have to say that this visit with him literally changed my life. I have been going to chiropractors for the last 4 to 5 years and none of them were able to do what he did!',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Ray Felix',
+        role: 'June 21, 2020',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'I drove in from Gretna, LA. I have scoliosis and I am pretty much uncomfortable most of the time. The Y-Strap felt amazing. After my adjustment I did something I haven’t done in forever...stand or sit without shifting. This is huge.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Lisa Sisung',
+        role: 'June 13, 2020',
         image: avatarImage4,
       },
     },
