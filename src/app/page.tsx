@@ -1,4 +1,5 @@
 import { CallToAction } from '@/components/CallToAction'
+import Events from '@/components/Events'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
+        <Events />
         <SecondaryFeatures />
         <CallToAction />
         <Testimonials />

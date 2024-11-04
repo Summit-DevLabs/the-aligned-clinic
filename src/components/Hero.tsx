@@ -44,6 +44,7 @@ export function Hero() {
           </svg>
           <span className="ml-3">Meet Dr. Tubio</span>
         </Button>
+        <Button href="https://square.site/book/L0M3YBYKDTEYA/the-aligned-clinic-california-costa-mesa-ca">Book an appointment</Button>
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
