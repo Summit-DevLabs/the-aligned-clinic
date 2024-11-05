@@ -46,7 +46,7 @@ export function Hero() {
         </Button>
         <Button href="https://square.site/book/L0M3YBYKDTEYA/the-aligned-clinic-california-costa-mesa-ca">Book an appointment</Button>
       </div>
-      <div className="mt-36 lg:mt-44">
+      {/* <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
           Awards & Recognition or other logos??
         </p>
@@ -80,7 +80,7 @@ export function Hero() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </Container>
   )
 }
