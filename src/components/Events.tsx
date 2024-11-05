@@ -1,4 +1,3 @@
-import { Button } from "./Button";
 import events1 from '@/images/events/events1.webp'
 import events2 from '@/images/events/events2.jpeg'
 import events3 from '@/images/events/events3.jpg'
