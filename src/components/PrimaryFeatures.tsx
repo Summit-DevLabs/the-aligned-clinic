@@ -79,7 +79,7 @@ export function PrimaryFeatures() {
             We offer many services to our patients.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            You'll feel mmm, mmm, good after using our software.
+            You'll feel mmm, mmm, good after visiting our clinic.
           </p>
         </div>
         <TabGroup

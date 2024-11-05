@@ -30,7 +30,7 @@ export function Hero() {
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         A chiropractic clinic that gets results.
       </p>
-      <div className="mt-10 flex justify-center gap-x-6">
+      <div className="mt-10 mb-20 flex justify-center gap-x-6">
         <Button href="/register">Tour The Clinic</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
