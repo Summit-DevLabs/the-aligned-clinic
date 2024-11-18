@@ -135,36 +135,51 @@ export function Pricing() {
             Pick one of our convient locations and book an appointment today.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            // featured
-            name="California Office"
-            price="$200"
+            featured
+            name="California"
+            price="$697"
             description="w/ Dr. Tubio"
             href="/register"
             specialist="Dr. Tubio"
             features={[
               '45 minute session',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Consultation',
+              'Work-up',
+              'Full x-ray',
+              '$100 discount for videoed visit',
+              '$200 non-refundable deposit',
             ]}
           />
           <Plan
-            name="Houston Office"
-            price="$200"
+            name="California"
+            price="$447"
             description="w/ Dr. Jimenez"
             specialist="Dr. Jimenez"
             href="/register"
             features={[
               '45 minute session',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Consultation',
+              'Work-up',
+              'Full x-ray',
+              '$100 discount for videoed visit',
+              '$200 non-refundable deposit',
+            ]}
+          />
+          <Plan
+            name="Houston"
+            price="$447"
+            description="w/ Dr. Liu"
+            specialist="Dr. Liu"
+            href="/register"
+            features={[
+              '45 minute session',
+              'Consultation',
+              'Work-up',
+              'Full x-ray',
+              '$100 discount for videoed visit',
+              '$200 non-refundable deposit',
             ]}
           />
           {/* <Plan
