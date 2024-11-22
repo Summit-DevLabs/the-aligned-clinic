@@ -1,18 +1,18 @@
 import logo1 from '/src/images/logo1.jpg'
 import Image from 'next/image'
 
-export function Logo() {
+export function Logo({ className }: { className?: string }) {
   return (
     <Image
       src={logo1}
       alt="Logo"
       width={50}
       height={50}
+      className={className}
       style={{
         borderRadius: '50%',
         objectFit: 'cover',
       }}
-      
     />
   )
 }

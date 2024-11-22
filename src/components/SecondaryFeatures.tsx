@@ -10,7 +10,7 @@ import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 import InstagramHeroPhoto from '@/images/screenshots/instagramHeroPhoto.jpg'
-import TikTokHeroPhoto from '@/images/screenshots/tiktokHeroPhoto.jpg'
+import TikTokHeroPhoto from '@/images/screenshots/tikTokHeroPhoto.jpg'
 import YouTubeHeroPhoto from '@/images/screenshots/youtubeHeroPhoto.jpg'
 
 interface Feature {
